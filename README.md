@@ -41,9 +41,13 @@ inorder
 # Результаты сравнения:
 
 2-3 tree:
+
 Creation of tree with 1048576 nodes took 1878ms
+
 Finding all nodes took 510ms
 
 Red-Black tree:
+
 Creation of tree with 1048576 nodes took 1049ms
+
 Finding all nodes took 366ms
