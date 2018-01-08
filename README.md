@@ -27,13 +27,7 @@ max
 
 min
 
-postorder
-
-preorder
-
-inorder
-
-где key, data - целые числа.
+(где key, data - целые числа)
 
 
 
