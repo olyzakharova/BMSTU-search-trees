@@ -16,19 +16,19 @@
 
 # Входной файл с командами может содержать следующие команды:
 
-***add [key] ***[data]
+***add [key]*** ***[data]***
 
-***delete [key]
+***delete [key]***
 
-***print
+***print***
 
-***search [key]
+***search [key]***
 
-***max
+***max***
 
-***min
+***min***
 
-***(где key, data - целые числа)
+***(где key, data - целые числа)***
 
 # Описание команды print:
 
