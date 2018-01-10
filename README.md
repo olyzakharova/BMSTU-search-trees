@@ -64,80 +64,78 @@
 
 2-3 tree:
 
-Creation of tree with 1048576 nodes took **1141** ms
+Creation of tree with 1048576 nodes took **390** ms
 
-Finding all nodes took **199** ms
+Finding all nodes took **191** ms
 
-Deletion of all nodes took **295** ms
+Deletion of all nodes took **198** ms
 
 Red-Black tree:
 
-Creation of tree with 1048576 nodes took **1093** ms
+Creation of tree with 1048576 nodes took **210** ms
 
-Finding all nodes took **219** ms
+Finding all nodes took **71** ms
 
-Deletion of all nodes took **280** ms
+Deletion of all nodes took **153** ms
 
 
 Исходя из этих данных можно сделать вывод, что: 
 1. Вставка проходит быстрее в красно-черном дереве.
-2. Поиск проходит быстрее в 2-3-дереве.
+2. Поиск проходит быстрее в красно-черном дереве.
 3. Удаление проходит быстрее в красно-черном дереве.
 
-Но следует заметить, что разница очень невелика, так что теоретические ожидания почти подтвердились.
 
 ##  Для частично отсортированной последовательности:
 
 2-3 tree:
 
-Creation of tree with 1048576 nodes took **1141** ms
+Creation of tree with 1048576 nodes took **634** ms
 
-Finding all nodes took **199** ms
+Finding all nodes took **135** ms
 
-Deletion of all nodes took **295** ms
+Deletion of all nodes took **237** ms
 
 Red-Black tree:
 
-Creation of tree with 1048576 nodes took **1093** ms
+Creation of tree with 1048576 nodes took **494** ms
 
-Finding all nodes took **219** ms
+Finding all nodes took **117** ms
 
-Deletion of all nodes took **280** ms
+Deletion of all nodes took **207** ms
 
 
 Исходя из этих данных можно сделать вывод, что: 
 1. Вставка проходит быстрее в красно-черном дереве.
-2. Поиск проходит быстрее в 2-3-дереве.
+2. Поиск проходит быстрее в красно-черном дереве.
 3. Удаление проходит быстрее в красно-черном дереве.
-
-Но следует заметить, что разница очень невелика, так что теоретические ожидания почти подтвердились.
 
 
 ##  Для неотсортированной последовательности:
 
 2-3 tree:
 
-Creation of tree with 1048576 nodes took **1141** ms
+Creation of tree with 1048576 nodes took **1160** ms
 
-Finding all nodes took **199** ms
+Finding all nodes took **209** ms
 
-Deletion of all nodes took **295** ms
+Deletion of all nodes took **289** ms
 
 Red-Black tree:
 
-Creation of tree with 1048576 nodes took **1093** ms
+Creation of tree with 1048576 nodes took **1044** ms
 
-Finding all nodes took **219** ms
+Finding all nodes took **195** ms
 
-Deletion of all nodes took **280** ms
+Deletion of all nodes took **291** ms
 
 
 Исходя из этих данных можно сделать вывод, что: 
 1. Вставка проходит быстрее в красно-черном дереве.
-2. Поиск проходит быстрее в 2-3-дереве.
-3. Удаление проходит быстрее в красно-черном дереве.
+2. Поиск проходит быстрее в красно-черном дереве.
+3. Удаление проходит быстрее в 2-3-дереве.
 
-Но следует заметить, что разница очень невелика, так что теоретические ожидания почти подтвердились.
+
+#### Но следует заметить, что разница невелика, так что теоретические ожидания почти подтвердились.
 
 
 
